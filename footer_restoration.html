@@ -1,0 +1,107 @@
+    <!-- ================= FAQ ================= -->
+    <section id="faq" style="padding: 100px 0; background: var(--color-bg-alt);">
+        <style>
+            .faq-list details { background: #fff; padding: 25px; border-radius: 16px; margin-bottom: 15px; cursor: pointer; box-shadow: var(--shadow-sm); transition: all 0.3s ease; border: 1px solid #f3f4f6; }
+            .faq-list details:hover { box-shadow: var(--shadow-md); border-color: var(--color-highlight); }
+            .faq-list summary { font-weight: 800; color: var(--color-heading); font-size: 1.1rem; list-style: none; display: flex; justify-content: space-between; align-items: center; }
+            .faq-list summary::-webkit-details-marker { display: none; }
+            .faq-list summary::after { content: '+'; font-size: 1.5rem; color: var(--color-highlight); transition: transform 0.3s; font-weight: normal; }
+            .faq-list details[open] summary::after { transform: rotate(45deg); }
+            .faq-list p { margin-top: 15px; padding-top: 15px; border-top: 1px solid #f3f4f6; color: var(--color-text); line-height: 1.6; font-size: 1rem; }
+        </style>
+        <div class="container reveal">
+            <div class="section-header">
+                <h2>Perguntas Frequentes</h2>
+                <p>Respostas rápidas para você tomar sua decisão agora.</p>
+            </div>
+            <div class="faq-list" style="max-width: 800px; margin: 0 auto;">
+                <details>
+                    <summary>Meu nome está sujo (SPC/Serasa), posso fazer?</summary>
+                    <p>Sim! Diferente do mercado tradicional, nós não consultamos seu histórico de crédito. Acreditamos que todos têm o direito de proteger seu patrimônio sem discriminação.</p>
+                </details>
+                <details>
+                    <summary>A Valle protege motoristas de aplicativo?</summary>
+                    <p>Com certeza. Aceitamos veículos usados para Uber, 99 e outros aplicativos sem cobrar taxas abusivas por isso. O preço é o mesmo e a proteção é total.</p>
+                </details>
+                <details>
+                    <summary>Como funciona se der Perda Total ou Roubo?</summary>
+                    <p>Caso o carro não seja recuperado, pagamos 100% do valor do seu veículo baseado na Tabela FIPE, garantindo que você não fique no prejuízo de forma alguma.</p>
+                </details>
+                <details>
+                    <summary>Existe carência para usar?</summary>
+                    <p>A proteção contra Colisão, Roubo e Furto passa a valer imediatamente após a aprovação da sua vistoria e pagamento da adesão. Sem enrolação de 30 dias.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section id="simular" class="contact">
+        <div class="container">
+            <div class="contact-container reveal">
+                <div class="contact-info">
+                    <h2>Fale Conosco</h2>
+                    <p>Precisa de assistência ou quer fazer sua cotação agora mesmo? Preencha o formulário e nossa equipe entrará em contato com você o mais rápido possível.</p>
+                    <div style="margin-top: 40px; text-align: center;">
+                        <i class="ph-bold ph-chats-circle" style="font-size: 5rem; color: var(--color-highlight); opacity: 0.15;"></i>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="simulacao-form" novalidate>
+                    <div class="form-group">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" class="form-control" required>
+                        <div class="form-error">Insira seu nome.</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telefone">Telefone / WhatsApp</label>
+                        <input type="tel" id="telefone" class="form-control" required>
+                        <div class="form-error">Insira seu telefone.</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="veiculo">Placa ou Modelo do Veículo</label>
+                        <input type="text" id="veiculo" class="form-control" required>
+                        <div class="form-error">Insira o modelo do veículo.</div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Quero uma Simulação</button>
+                    <p id="form-success" style="display: none; color: #10B981; margin-top: 16px; font-weight: bold; text-align: center;">Recebemos seus dados! Entraremos em contato.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col" style="grid-column: span 1;">
+                    <a href="#" class="footer-logo">
+                        <img src="logo Valle pdf 2.pdf.png" alt="Valle Proteção Veicular">
+                    </a>
+                    <p>Valle Proteção Veicular. Segurança inteligente, justa e sem burocracia para você.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Navegação</h4>
+                    <div class="footer-links">
+                        <a href="#inicio">Início</a>
+                        <a href="#vantagens">Vantagens</a>
+                        <a href="#planos">Planos</a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Atendimento</h4>
+                    <div class="footer-links">
+                        <a href="https://www.instagram.com/valleprotecaoitumbiara/" target="_blank">Siga no Instagram</a>
+                        <a href="#simular">Solicite uma Cotação</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Valle Proteção Veicular. CNPJ: 00.000.000/0001-00.</p>
+            </div>
+        </div>
+    </footer>
