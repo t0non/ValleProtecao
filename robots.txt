@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /temp/
+Disallow: /private/
+Disallow: /*.pdf$
+
+# Host
+Host: https://www.valleprotecao.com.br
+
+# Sitemap location
+Sitemap: https://www.valleprotecao.com.br/sitemap.xml
