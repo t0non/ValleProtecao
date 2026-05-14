@@ -21,7 +21,7 @@ export default function ValleLandingPage() {
                 Cobertura total com mensalidades que cabem no seu bolso. Sem análise de perfil, sem sustos na hora de acionar. Seu carro seguro a partir de hoje.
               </p>
               <a 
-                href="#whatsapp" 
+                href="https://wa.me/5564992288632" 
                 className="mt-8 bg-green-500 hover:bg-green-600 text-white font-semibold py-4 px-8 rounded-full transition-all hover:scale-105 inline-flex items-center gap-2"
               >
                 Fazer Cotação no WhatsApp (Leva 2 min)
@@ -214,7 +214,7 @@ export default function ValleLandingPage() {
             <span className="text-blue-600 font-semibold">Mais de 10.000 associados</span> já descobriram que é possível ter um <span className="text-blue-600 font-semibold">veículo totalmente protegido</span> pagando um <span className="text-blue-600 font-semibold">preço justo</span>. Nossa associação não visa o lucro predatório, mas sim a <span className="text-blue-600 font-semibold">força do coletivo</span> para proteger o seu patrimônio.
           </p>
           <a 
-            href="#whatsapp" 
+            href="https://wa.me/5564992288632" 
             className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full shadow-lg transition-transform hover:scale-105 inline-block"
           >
             Proteja seu Veículo
@@ -232,7 +232,7 @@ export default function ValleLandingPage() {
             Fale com nossos especialistas agora e descubra o valor exato do seu plano.
           </p>
           <a 
-            href="#whatsapp" 
+            href="https://wa.me/5564992288632" 
             className="mt-10 bg-green-500 hover:bg-green-400 text-white font-bold py-5 px-10 rounded-full text-xl shadow-lg transition-transform hover:scale-105 inline-block"
           >
             Simular Meu Plano Agora

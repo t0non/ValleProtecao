@@ -22,7 +22,7 @@ export default function PintorLandingPage() {
                 Especialista em efeitos decorativos (Marmorato, Cimento Queimado e Velvet) com 15 anos de experiência. Proteção total dos seus móveis e zelo absoluto pelo seu espaço.
               </p>
               <a 
-                href="#whatsapp" 
+                href="https://wa.me/5564992288632" 
                 className="mt-10 bg-green-500 hover:bg-green-600 text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-xl inline-flex items-center gap-3"
               >
                 <MessageCircle className="w-5 h-5" />
@@ -233,7 +233,7 @@ export default function PintorLandingPage() {
             Envie uma foto do seu ambiente agora e receba uma estimativa rápida pelo WhatsApp.
           </p>
           <a 
-            href="#whatsapp" 
+            href="https://wa.me/5564992288632" 
             className="bg-green-500 hover:bg-green-600 text-white font-semibold py-5 px-10 rounded-full text-lg shadow-xl hover:shadow-green-500/20 transition-all duration-300 hover:-translate-y-1 inline-flex items-center gap-3"
           >
             <MessageCircle className="w-6 h-6" />
