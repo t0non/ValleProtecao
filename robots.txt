@@ -5,7 +5,7 @@ Disallow: /private/
 Disallow: /*.pdf$
 
 # Host
-Host: https://www.valleprotecao.com.br
+Host: https://valleprotecaoitumbiara.com.br
 
 # Sitemap location
-Sitemap: https://www.valleprotecao.com.br/sitemap.xml
+Sitemap: https://valleprotecaoitumbiara.com.br/sitemap.xml
